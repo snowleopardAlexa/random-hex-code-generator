@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    background-color: rgb(226, 221, 221);
+    background-color: rgb(219, 205, 205);
     width: 60vmin;
     padding: 2.5em 2em;
     position: absolute;
@@ -69,7 +69,28 @@ input[type="text"] {
 .btns button {
     font-size: 1.2rem;
     padding: 0.8em 2.2em;
-    color:rgb(233, 232, 232);
-    font-weight: bold;
+    cursor: pointer;
+}
+
+#gen-btn {
     background-color: rgb(133, 17, 17);
+    color:rgb(233, 232, 232);
+}
+
+#copy-btn {
+    border: 3px solid rgb(133, 17, 17);
+    background-color: transparent;
+    color: rgb(133, 17, 17);
+}
+
+.custom-alert {
+    background-color: teal;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    color: rgb(235, 229, 229);
+    padding: 1em 1.5em;
+    transition: 0.5s;
+    transform: translateX(cal(100% + 10px));
 }
